@@ -1,0 +1,629 @@
+@media (min-width:375px){
+    
+body{
+    background-color: hsl(226, 43%, 10%);
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: center;
+    font-weight: 400;
+}
+
+h1{
+    font-family: monospace;
+}
+
+
+p{
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+h1{
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+
+.container{
+    height:60vh;
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    
+}
+.row-2{
+    background-color: rgb(12, 18, 83);
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.row-1{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+}
+.profilebox{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    height: 40vh;
+    background-color: rgb(83, 34, 245);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.time-period{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.but{
+    color: rgb(127, 130, 134);
+    background-color: rgb(12, 18, 83);
+    border: 0px;
+    padding: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+
+.Work{
+    background-color:hsl(15, 100%, 70%);
+    border-radius: 10px 10px 15px 15px;
+}
+
+.Work-1{
+    height: 5vh;
+}
+
+.Work-2{
+    height: 24vh;
+    background-color: rgb(12, 18, 83);
+    border-radius: 10px;
+}
+
+.Play{
+    background-color:hsl(195, 74%, 62%);
+    border-radius: 10px 10px 15px 15px;
+}
+
+
+.Play-1{
+    height: 5vh;
+}
+
+.Play-2{
+    height: 24vh;
+    background-color: rgb(12, 18, 83);
+    border-radius: 10px;
+}
+
+.social{
+    background-color:hsl(264, 64%, 52%);
+    border-radius: 10px 10px 15px 15px;
+}
+
+.social-1{
+    height: 5vh;
+}
+
+.social-2{
+    height: 24vh;
+    background-color: rgb(12, 18, 83);
+    border-radius: 10px;
+}
+
+
+.Exercise{
+    background-color:hsl(145, 58%, 55%);
+    border-radius: 10px 10px 15px 15px;
+}
+
+.Exercise-1{
+    height: 5vh;
+}
+
+.Exercise-2{
+    height: 24vh;
+    background-color: rgb(12, 18, 83);
+    border-radius: 10px;
+}
+
+.study{
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px 10px 15px 15px;
+}
+
+.study-1{
+    height: 5vh;
+}
+
+.study-2{
+    height: 24vh;
+    background-color: rgb(12, 18, 83);
+    border-radius: 10px;
+}
+
+.Self_care{
+    background-color:hsl(43, 84%, 65%);
+    border-radius: 10px 10px 15px 15px;
+}
+
+.Self_care-1{
+    height: 5vh;
+}
+
+.Self_care-2{
+    height: 24vh;
+    background-color: rgb(12, 18, 83);
+    border-radius: 10px;
+}
+
+
+
+.alldetails p{
+    
+    padding-left: 20px;
+
+}
+
+.cap{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 2rem;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.details>p{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+svg{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.Work-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    overflow:hidden;
+}
+
+
+
+.Work-1-image{
+    height: 55px;
+    border: 0px;
+    float: left;
+}
+
+.Play-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    overflow:hidden;
+}
+
+.Play-1-image{
+    height: 55px;
+    border: 0px;
+    float: left;
+}
+
+.study-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    overflow:hidden;
+}
+
+.study-1-image{
+    height: 55px;
+    border: 0px;
+    float: left;
+}
+
+.Exercise-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    overflow:hidden;
+}
+
+.Exercise-1-image{
+    height: 55px;
+    border: 0px;
+    float: left;
+}
+
+.social-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    overflow:hidden;
+}
+
+.social-1-image{
+    height: 55px;
+    border: 0px;
+    float: left;
+}
+
+.Self_care-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    overflow:hidden;
+}
+
+.Self_care-1-image{
+    height: 55px;
+    border: 0px;
+    float: left;
+}
+
+.title{
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+}
+
+.time{
+    font-weight: 400;
+    font-size: 4rem;
+    
+}
+
+
+.bye{
+    padding:  5px 20px; 
+    margin: 0px;
+}
+
+.b{
+    color: #ffffff;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:375px){
+    body{
+        background-color: hsl(226, 43%, 10%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: aliceblue;
+        align-items: center;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    h1{
+        font-family: monospace;
+    }
+    
+    
+    p{
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    h1{
+        padding-top: 0px;
+        margin-top: 0px;
+    
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+    }
+    .row-2{
+        background-color: rgb(12, 18, 83);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .row-1{
+        
+        background-color: hsl(235, 46%, 20%);
+        border-radius: 10px;
+    }
+    .profilebox{
+        display: flex;
+        flex-direction: column;
+    }
+    .row-1{
+        width: 80vw;
+        margin: 10px 0px;
+    }
+    .row-2{
+        width: 80vw;
+    }
+    .profile{
+        background-color: rgb(83, 34, 245);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    img{
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .time-period{
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    .but{
+        color: rgb(127, 130, 134);
+        background-color: rgb(12, 18, 83);
+        border: 0px;
+        padding: 10px;
+        padding-left: 30px;
+    }
+
+    .Work{
+        background-color:hsl(15, 100%, 70%);
+        border-radius: 10px 10px 15px 15px;
+        width: 80vw;
+    }
+    
+    .Work-2{
+        background-color: rgb(12, 18, 83);
+        border-radius: 10px;
+    }
+
+    .Work-1{
+        height: 5.5vh;
+    }
+
+    .Work-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        overflow:hidden;
+    }
+
+    .Work-1-image{
+        height: 75px;
+        border: 0px;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:center;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+
+    .hi{
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .alldetails{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .title{
+        font-size: 18px;
+        font-family: "Rubik", sans-serif;
+    }
+    
+    .time{
+        font-weight: 300;
+        font-size: 2rem; 
+        padding-left: 20px;
+    }
+
+    .Play{
+        background-color:hsl(195, 74%, 62%);
+        border-radius: 10px 10px 15px 15px;
+        width: 80vw;
+    }
+    
+    .Play-2{
+        background-color: rgb(12, 18, 83);
+        border-radius: 10px;
+    }
+
+    .Play-1{
+        height: 5.5vh;
+    }
+
+    .Play-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        overflow:hidden;
+    }
+
+    .Play-1-image{
+        height: 75px;
+        border: 0px;
+    }
+
+
+    .study{
+        background-color:hsl(348, 100%, 68%);
+        border-radius: 10px 10px 15px 15px;
+        width: 80vw;
+    }
+    
+    .study-2{
+        background-color: rgb(12, 18, 83);
+        border-radius: 10px;
+    }
+
+    .study-1{
+        height: 5.5vh;
+    }
+
+    .study-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        overflow:hidden;
+    }
+
+    .study-1-image{
+        height: 75px;
+        border: 0px;
+    }
+
+    .Exercise{
+        background-color:hsl(145, 58%, 55%);
+        border-radius: 10px 10px 15px 15px;
+        width: 80vw;
+    }
+    
+    .Exercise-2{
+        background-color: rgb(12, 18, 83);
+        border-radius: 10px;
+    }
+
+    .Exercise-1{
+        height: 5.5vh;
+    }
+
+    .Exercise-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        overflow:hidden;
+    }
+
+    .Exercise-1-image{
+        height: 75px;
+        border: 0px;
+    }
+
+    .social{
+        background-color:hsl(264, 64%, 52%);
+        border-radius: 10px 10px 15px 15px;
+        width: 80vw;
+    }
+    
+    .social-2{
+        background-color: rgb(12, 18, 83);
+        border-radius: 10px;
+    }
+
+    .social-1{
+        height: 5.5vh;
+    }
+
+    .social-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        overflow:hidden;
+    }
+
+    .social-1-image{
+        height: 75px;
+        border: 0px;
+    }
+
+    .Self_care{
+        background-color:hsl(43, 84%, 65%);
+        border-radius: 10px 10px 15px 15px;
+        width: 80vw;
+    }
+    
+    .Self_care-2{
+        background-color: rgb(12, 18, 83);
+        border-radius: 10px;
+    }
+
+    .Self_care-1{
+        height: 5.5vh;
+    }
+
+    .Self_care-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        overflow:hidden;
+    }
+
+    .Self_care-1-image{
+        height: 75px;
+        border: 0px;
+    }
+
+    
+    .details{
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hi{
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: first baseline;
+    }
+    
+    .b{
+        color: #ffffff;
+    }
+
+  }
